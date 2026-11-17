@@ -1,3 +1,6 @@
+import { Prompt } from "@/components/Prompt";
+import { TerminalWindow } from "@/components/TerminalWindow";
+
 export default function Home() {
   return (
     <main style={{ padding: 32 }}>
