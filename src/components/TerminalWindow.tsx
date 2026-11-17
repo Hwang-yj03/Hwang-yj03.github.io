@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Clock } from "./Clock";
 
 const tabs = [
     { label: "~", href: "/"},
@@ -33,6 +34,7 @@ export function TerminalWindow({ children }: { children: React.ReactNode }) {
                 <footer className="statusbar">
                     <span>[yeonjudev] 0:zsh* main ✓</span>
                     <span>utf-8 · next.js · github pages</span>
+                    <Clock />
                 </footer>
             </div>
         </div>
