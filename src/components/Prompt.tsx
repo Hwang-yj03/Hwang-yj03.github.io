@@ -3,7 +3,7 @@ type PromptProps = {
     children?: React.ReactNode;
 };
 
-export function Pormpt({ path = "~", children }: PromptProps) {
+export function Prompt({ path = "~", children }: PromptProps) {
     return (
         <div>
             <span className="p-user">yeonju@dev</span>
