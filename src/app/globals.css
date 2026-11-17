@@ -63,3 +63,11 @@ a { color: var(--dir); text-decoration: none; }
   .window { border-radius: 0; }
   .content { padding: 24px 18px; }
 }
+
+/* 이름 배너 */
+.banner {
+  display: grid; gap: 2px; width: 100%; max-width: 560px;
+  filter: drop-shadow(0 0 8px rgba(74, 222, 128, 0.35));
+}
+.px { aspect-ratio: 1; }
+.px.on { background: var(--accent); }

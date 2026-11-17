@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 function seoulTime() {
-    return new Date().toLocaleTimeString("ko-KR", { hour12: false, timeZone: "Asia/Seoul" });
+    return new Date().toLocaleTimeString("en-GB", { timeZone: "Asia/Seoul" });
 }
 
 export function Clock() {
